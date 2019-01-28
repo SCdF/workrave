@@ -58,4 +58,4 @@ For OS X, the following steps will install sufficient packages
 1. Install [Homebrew](https://brew.sh/)
 2. `brew install gettext intltool gobject-introspection autoconf-archive gtk+ gtk-mac-integration gtkmm3`
 3. `brew link --force gettext libffi`
-4. if `perl -e "require XML::Parser"` errors for you then you must also install another dependency via perl: `perl -e shell -MCPAN` (if it asks you to setup just hit yes) to open perl's shell; then `install XML::Parser`
+4. If `perl -e "require XML::Parser"` errors for you then you must also install another dependency via perl: `perl -e shell -MCPAN` (if it asks you to setup just hit yes) to open perl's shell; then `install XML::Parser`
